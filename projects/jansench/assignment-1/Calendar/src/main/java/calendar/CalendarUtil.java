@@ -13,7 +13,7 @@ package calendar;
 public class CalendarUtil {
 	
 	/** integers specifying the number of days in each month **/
-	public static int DaysInMonth[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+	public static int DaysInMonth[] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 	
 	/** static var used for February **/
 	public static final int FEBRUARY = 1;
