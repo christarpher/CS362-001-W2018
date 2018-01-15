@@ -55,10 +55,10 @@ public class CalendarUtil {
 	
 		//year is also leap year if multiple of 4
 		if ((year % 4) == 0) {
-			return true;
+			return false;
 		}
 		else{
-			return false;
+			return true;
 		}
 	}
 }
