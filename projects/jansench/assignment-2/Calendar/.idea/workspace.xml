@@ -23,7 +23,7 @@
     <SUITE FILE_PATH="coverage/Calendar$ApptTest_test02.coverage" NAME="ApptTest.test02 Coverage Results" MODIFIED="1517272883996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>calendar.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Calendar$calendar_in_Calendar.coverage" NAME="calendar in Calendar Coverage Results" MODIFIED="1517282213142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Calendar$calendar_in_Calendar.coverage" NAME="calendar in Calendar Coverage Results" MODIFIED="1519678411154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>calendar.*</FILTER>
     </SUITE>
   </component>
@@ -31,6 +31,7 @@
     <option name="myAddOrReplace" value="1" />
   </component>
   <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -40,11 +41,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
               <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-              <folding>
-                <element signature="e#1030#1036#0" expanded="true" />
-                <element signature="e#1708#1716#0" expanded="true" />
-                <element signature="e#2066#2072#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,27 +49,27 @@
       <file leaf-file-name="CalDay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalDay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="1125">
               <caret line="77" column="62" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="77" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeTable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TimeTable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/calendar/TimeTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
+            <state relative-caret-position="728">
               <caret line="87" column="62" lean-forward="false" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApptTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ApptTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-437">
+            <state relative-caret-position="-436">
               <caret line="117" column="16" lean-forward="false" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
               <folding />
             </state>
@@ -82,7 +79,7 @@
       <file leaf-file-name="Appt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3692">
+            <state relative-caret-position="3735">
               <caret line="283" column="32" lean-forward="false" selection-start-line="283" selection-start-column="32" selection-end-line="283" selection-end-column="32" />
               <folding />
             </state>
@@ -92,7 +89,7 @@
       <file leaf-file-name="CalDayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="975">
               <caret line="71" column="42" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="71" selection-end-column="42" />
               <folding />
             </state>
@@ -157,8 +154,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +213,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -387,9 +384,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="calendar_in_Calendar - 2018.01.29 at 18h 48m 46s.xml">
-      <configuration name="calendar in Calendar" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="calendar_in_Calendar - 2018.01.29 at 18h 49m 29s.xml">
       <configuration name="calendar in Calendar" configurationId="AndroidJUnit" />
     </history-entry>
@@ -417,9 +411,13 @@
     <history-entry file="calendar_in_Calendar - 2018.01.29 at 19h 16m 56s.xml">
       <configuration name="calendar in Calendar" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="calendar_in_Calendar - 2018.02.26 at 12h 53m 36s.xml">
+      <configuration name="calendar in Calendar" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -431,7 +429,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31304348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28194445" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28194445" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -461,13 +459,65 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="77" column="62" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="77" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="117" column="16" lean-forward="false" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3735">
+          <caret line="283" column="32" lean-forward="false" selection-start-line="283" selection-start-column="32" selection-end-line="283" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="71" column="42" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="71" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalendarMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="170" column="92" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/TimeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="87" column="62" lean-forward="false" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1030#1036#0" expanded="true" />
-            <element signature="e#1708#1716#0" expanded="true" />
-            <element signature="e#2066#2072#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -513,8 +563,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
+        <state relative-caret-position="975">
           <caret line="71" column="42" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="71" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3735">
+          <caret line="283" column="32" lean-forward="false" selection-start-line="283" selection-start-column="32" selection-end-line="283" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="77" column="62" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="77" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/TimeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="87" column="62" lean-forward="false" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -523,42 +597,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-          <folding>
-            <element signature="e#1030#1036#0" expanded="true" />
-            <element signature="e#1708#1716#0" expanded="true" />
-            <element signature="e#2066#2072#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
+        <state relative-caret-position="-436">
           <caret line="117" column="16" lean-forward="false" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3692">
-          <caret line="283" column="32" lean-forward="false" selection-start-line="283" selection-start-column="32" selection-end-line="283" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="77" column="62" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="77" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/TimeTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="87" column="62" lean-forward="false" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="62" />
           <folding />
         </state>
       </provider>

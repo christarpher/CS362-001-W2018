@@ -1,0 +1,26 @@
+Bug report 1: 
+
+This bug makes it always return true for checking to see if the day of the month is valid. This happens because the or statement has been changed to an and, and the or statement is what made a false possibility. With and, it’s no longer possible for both arguments to be true. 
+
+Section of code (Line 121 in appt.java): 
+if(startDay<1 && startDay>NumDaysInMonth)
+        this.valid=false;
+
+This bug was caught by the test suite I have, due to the fact that having an out of range day should return false for isValid, but it was returning true instead. This is reproducible by selecting a date that is out of range and calling the isValid.
+
+In order to fix the bug we need to replace the && with || in the above code. This will again allow the day to be considered false if it is less than 1, or greater than the amount of days in the month.
+
+
+Bug report 2:
+
+This bug makes the times displayed on the hours messed up. Hours show up in the negatives when they should never be negative. 
+
+Section of code (Line 282 in appt.java)
+if (printableHour < 11)
+{
+    printableHour -= 12;
+}
+
+This bug was caught simply because of the output being messed up. It’s reproducible by having a time with an hour being less than 11am and when it gets printed it then shows up with a negative number. This happens because it’s subtractive 12 from the hours time when it’s less than 11 when it should be subtracting 12 from the hours when it’s greater than 11 (eg 12 or greater)
+
+In order to fix the bug we need to replace the less than with a greater than symbol (< to >). This will create the proper situation to display the time. 
